@@ -171,6 +171,7 @@ SELECT DISTINCT
 FROM silver.erp_cust_az12;
 
 -- Final Check
+
 SELECT * FROM silver.erp_cust_az12;
 
 ---------------------------------------------------------------------------------------------------
@@ -194,3 +195,7 @@ OR maintenance != TRIM(maintenance);
 SELECT DISTINCT
     maintenance
 FROM silver.erp_px_cat_g1v2;
+
+-- Final Check
+
+SELECT * FROM silver.erp_px_cat_g1v2;
